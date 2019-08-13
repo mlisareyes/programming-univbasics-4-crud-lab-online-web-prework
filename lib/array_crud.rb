@@ -1,15 +1,17 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  family_members = ["Louren", "Lester", "Lisa", "Rene"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = []
+  array << "Lourdes"
+  p array
 end
-
+  
 def add_element_to_start_of_array(array, element)
   
 end
